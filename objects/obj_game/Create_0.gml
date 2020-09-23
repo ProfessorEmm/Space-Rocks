@@ -1,16 +1,20 @@
+/// @DnDAction : YoYo Games.Random.Randomize
+/// @DnDVersion : 1
+/// @DnDHash : 2971B79C
+randomize();
+
 /// @DnDAction : YoYo Games.Instance Variables.Set_Score
 /// @DnDVersion : 1
 /// @DnDHash : 508D960D
-/// @DnDArgument : "score" "990"
 
-__dnd_score = real(990);
+__dnd_score = real(0);
 
 /// @DnDAction : YoYo Games.Instance Variables.Set_Lives
 /// @DnDVersion : 1
 /// @DnDHash : 0CAA7DD8
-/// @DnDArgument : "lives" "1"
+/// @DnDArgument : "lives" "3"
 
-__dnd_lives = real(1);
+__dnd_lives = real(3);
 
 /// @DnDAction : YoYo Games.Drawing.Set_Font
 /// @DnDVersion : 1
