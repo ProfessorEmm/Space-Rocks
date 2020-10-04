@@ -23,8 +23,8 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_F7E0122","path":"rooms/rm_start/rm_start.yy",},
     {"name":"inst_1A3FAAD","path":"rooms/rm_start/rm_start.yy",},
+    {"name":"inst_F7E0122","path":"rooms/rm_start/rm_start.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
