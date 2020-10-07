@@ -29,3 +29,75 @@ if(l52373906_0)
 	/// @DnDArgument : "arg_2" "cameraY"
 	camera_set_view_pos(view_camera[0], cameraX, cameraY);
 }
+
+/// @DnDAction : YoYo Games.Common.Function_Call
+/// @DnDVersion : 1
+/// @DnDHash : 4CD1539A
+/// @DnDInput : 2
+/// @DnDArgument : "function" "layer_x"
+/// @DnDArgument : "arg" ""Parallax_0""
+/// @DnDArgument : "arg_1" "cameraX * 0.98"
+layer_x("Parallax_0", cameraX * 0.98);
+
+/// @DnDAction : YoYo Games.Common.Function_Call
+/// @DnDVersion : 1
+/// @DnDHash : 6AA40F27
+/// @DnDInput : 2
+/// @DnDArgument : "function" "layer_y"
+/// @DnDArgument : "arg" ""Parallax_0""
+/// @DnDArgument : "arg_1" "cameraY * 0.98"
+layer_y("Parallax_0", cameraY * 0.98);
+
+/// @DnDAction : YoYo Games.Common.Function_Call
+/// @DnDVersion : 1
+/// @DnDHash : 122746AB
+/// @DnDInput : 2
+/// @DnDArgument : "function" "layer_x"
+/// @DnDArgument : "arg" ""Parallax_1""
+/// @DnDArgument : "arg_1" "cameraX * 0.9"
+layer_x("Parallax_1", cameraX * 0.9);
+
+/// @DnDAction : YoYo Games.Common.Function_Call
+/// @DnDVersion : 1
+/// @DnDHash : 3E1C25E5
+/// @DnDInput : 2
+/// @DnDArgument : "function" "layer_y"
+/// @DnDArgument : "arg" ""Parallax_1""
+/// @DnDArgument : "arg_1" "cameraY * 0.9"
+layer_y("Parallax_1", cameraY * 0.9);
+
+/// @DnDAction : YoYo Games.Common.Function_Call
+/// @DnDVersion : 1
+/// @DnDHash : 42EDB833
+/// @DnDInput : 2
+/// @DnDArgument : "function" "layer_x"
+/// @DnDArgument : "arg" ""Parallax_2""
+/// @DnDArgument : "arg_1" "cameraX * 0.85"
+layer_x("Parallax_2", cameraX * 0.85);
+
+/// @DnDAction : YoYo Games.Common.Function_Call
+/// @DnDVersion : 1
+/// @DnDHash : 0CE17902
+/// @DnDInput : 2
+/// @DnDArgument : "function" "layer_y"
+/// @DnDArgument : "arg" ""Parallax_2""
+/// @DnDArgument : "arg_1" "cameraY * 0.85"
+layer_y("Parallax_2", cameraY * 0.85);
+
+/// @DnDAction : YoYo Games.Common.Function_Call
+/// @DnDVersion : 1
+/// @DnDHash : 2EF007D9
+/// @DnDInput : 2
+/// @DnDArgument : "function" "layer_x"
+/// @DnDArgument : "arg" ""Parallax_3""
+/// @DnDArgument : "arg_1" "cameraX * 0.8"
+layer_x("Parallax_3", cameraX * 0.8);
+
+/// @DnDAction : YoYo Games.Common.Function_Call
+/// @DnDVersion : 1
+/// @DnDHash : 4078EB4C
+/// @DnDInput : 2
+/// @DnDArgument : "function" "layer_y"
+/// @DnDArgument : "arg" ""Parallax_3""
+/// @DnDArgument : "arg_1" "cameraY * 0.8"
+layer_y("Parallax_3", cameraY * 0.8);
